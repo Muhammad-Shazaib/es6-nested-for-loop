@@ -8,15 +8,16 @@ let matrix1 = [
 ]
 // standaed 2 demension loop
 for (let i = 0; i < matrix1.length; i++) {
+
     for (let j = 0; j < matrix1[i].length; j++) {
 
-        console.log('some text', matrix1[i][0]);
-        console.log('some text', matrix1[i][1]);
-        console.log('some text', matrix1[i][2]);
+        console.log('some text', matrix1[i][j]);
+        //console.log('some text', matrix1[i][1]);
+        //  console.log('some text', matrix1[i][2]);
 
-        matrix1[i][0] = matrix1[i][0] * 2;
-        matrix1[i][1] = matrix1[i][1] * 2;
-        matrix1[i][2] = matrix1[i][2] * 2;
+        matrix1[i][j] = matrix1[i][j] * 2;
+        //  matrix1[i][1] = matrix1[i][1] * 2;
+        // matrix1[i][2] = matrix1[i][2] * 2;
     }
 
 }
